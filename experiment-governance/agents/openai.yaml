@@ -1,0 +1,3 @@
+interface:
+  display_name: "Experiment Governance"
+  short_description: "Standardize metrics, artifacts, and incident handling"

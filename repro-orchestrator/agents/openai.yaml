@@ -1,0 +1,3 @@
+interface:
+  display_name: "Repro Orchestrator"
+  short_description: "Plan and manage end-to-end model reproduction"

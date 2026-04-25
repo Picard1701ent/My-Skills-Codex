@@ -1,0 +1,34 @@
+project:
+  name: sample-repro
+  owner: null
+  run_id: null
+
+models:
+  - name: qwen2.5-14b-instruct
+  - name: qwen2.5-32b-instruct
+
+benchmarks:
+  - name: mmlu
+    enabled: true
+  - name: gsm8k
+    enabled: true
+  - name: humaneval
+    enabled: true
+
+execution:
+  mode: FullConnected
+  smoke:
+    enabled: true
+    sample_size: 8
+  full:
+    enabled: true
+  retry:
+    max_attempts: 2
+
+audit:
+  require_fields:
+    - prompt_tokens
+    - completion_tokens
+    - api_calls
+    - elapsed_seconds
+    - accuracy_or_score

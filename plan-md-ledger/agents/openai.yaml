@@ -1,0 +1,4 @@
+interface:
+  display_name: "Plan MD Ledger"
+  short_description: "Auto-save approved plans and keep plan.md updated."
+  default_prompt: "Use $plan-md-ledger to auto-save the latest approved plan into plan.md when execution starts, archive replaced plans, and keep progress updated with strikethrough."

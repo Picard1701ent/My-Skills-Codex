@@ -1,0 +1,4 @@
+interface:
+  display_name: "GitHub Selective Push"
+  short_description: "Commit and push only selected files to GitHub"
+  default_prompt: "Use $github-selective-push to commit and push only the specific files I name from this local repository."

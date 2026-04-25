@@ -1,0 +1,3 @@
+interface:
+  display_name: "LLM Benchmark Ops"
+  short_description: "Run benchmark matrices with smoke-to-full workflow"

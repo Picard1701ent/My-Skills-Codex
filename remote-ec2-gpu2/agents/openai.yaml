@@ -1,0 +1,7 @@
+interface:
+  display_name: "Remote EC2 gpu2"
+  short_description: "Operate the peer EC2 host over SSH"
+  default_prompt: "Use $remote-ec2-gpu2 to connect to gpu2, run commands on the peer EC2 server, or inspect its jobs and logs."
+
+policy:
+  allow_implicit_invocation: true

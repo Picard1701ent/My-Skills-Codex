@@ -1,0 +1,4 @@
+interface:
+  display_name: "Long-Run Recovery"
+  short_description: "Recover, resume, and triage long experiment runs."
+  default_prompt: "Use $long-run-experiment-recovery to inspect, resume, or recover a stalled long-running experiment."

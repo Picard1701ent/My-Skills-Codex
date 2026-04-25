@@ -1,0 +1,4 @@
+interface:
+  display_name: "LLM Run Preflight"
+  short_description: "Validate long LLM pipelines before costly runs."
+  default_prompt: "Use $llm-run-preflight to smoke-test a multi-stage LLM pipeline before starting the full run."

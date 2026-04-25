@@ -1,0 +1,7 @@
+interface:
+  display_name: "Sandbox-Aware Test Ops"
+  short_description: "Run blocked tests through the right env"
+  default_prompt: "Use $sandbox-aware-test-ops to run this test or experiment, auto-picking a conda env and escalating when sandbox, network, or GPU access blocks execution."
+
+policy:
+  allow_implicit_invocation: true

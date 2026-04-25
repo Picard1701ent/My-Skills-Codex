@@ -1,0 +1,4 @@
+interface:
+  display_name: "Repo Research Sync"
+  short_description: "Keep repo understanding aligned with a live research.md"
+  default_prompt: "Use $repo-research-sync to read this codebase, maintain a research.md, and pause for my confirmation before final planning."

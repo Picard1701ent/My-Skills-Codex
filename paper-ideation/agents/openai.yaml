@@ -1,0 +1,4 @@
+interface:
+  display_name: "Paper Ideation (论文创意)"
+  short_description: "Paper ideas/gaps/method summaries with structure"
+  default_prompt: "Use $paper-ideation to summarize prior work, surface gaps, and propose paper ideas for: <your topic>."

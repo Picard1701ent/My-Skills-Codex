@@ -1,0 +1,4 @@
+interface:
+  display_name: "Task Memory Ledger"
+  short_description: "Track complex task memory across folders"
+  default_prompt: "Use $task-memory-ledger to set up and maintain memory.md progress tracking for this complex task."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Reproduction Boundary Governance"
+  short_description: "Gate reproductions on task, data, and method boundaries"
+  default_prompt: "Use $reproduction-boundary-governance to classify this reproduction target, check boundary alignment, and require approval before any adaptation or full run."
